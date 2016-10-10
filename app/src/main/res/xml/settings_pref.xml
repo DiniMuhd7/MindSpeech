@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="appUpdate"
+        android:title="@string/appUpdate"
+        android:summary="@string/appUpdateSummary"
+        android:defaultValue="true" />
+
+    <PreferenceCategory android:title="PREFERENCE" >
+
+        <ListPreference
+            android:key="translateFrom"
+            android:entries="@array/languageTranslate"
+            android:summary="@string/translateFromLangSummary"
+            android:entryValues="@array/languageTranslateValues"
+            android:defaultValue="en"
+            android:title="@string/translateFrom" />
+
+        <ListPreference
+            android:key="translateTo"
+            android:entries="@array/languageTranslate"
+            android:summary="@string/translateToLangSummary"
+            android:entryValues="@array/languageTranslateValues"
+            android:defaultValue="en"
+            android:title="@string/translateTo" />
+
+        <CheckBoxPreference
+            android:key="prefSound"
+            android:defaultValue="false"
+            android:summary="@string/prefSoundSummary"
+            android:title="@string/prefSoundTitle" >
+        </CheckBoxPreference>
+
+        <ListPreference
+            android:key="language"
+            android:title="@string/languageTitle"
+            android:summary="Not Available Yet"
+            android:defaultValue="2"
+            android:entries="@array/language"
+            android:entryValues="@array/languageValues" />
+
+        <CheckBoxPreference
+            android:key="prefSendReport"
+            android:defaultValue="true"
+            android:summary="@string/sendReport"
+            android:title="@string/sendReportTitle" >
+        </CheckBoxPreference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="LIBRARY" >
+
+        <PreferenceScreen
+            android:key="openSourceLib"
+            android:summary="Apache License 2.0"
+            android:title="Android Support" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="SIGNATURE" >
+
+        <PreferenceScreen
+            android:key="dev"
+            android:summary="@string/devName"
+            android:title="@string/devTitle" />
+
+        <PreferenceScreen
+            android:key="about"
+            android:summary="@string/signature"
+            android:title="Application" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

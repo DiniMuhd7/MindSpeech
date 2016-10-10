@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <com.google.android.gms.ads.NativeExpressAdView
+        android:id="@+id/adViewNative"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        ads:adSize="360x400"
+        ads:adUnitId="@string/adUnitNativeChatActivity">
+    </com.google.android.gms.ads.NativeExpressAdView>
+
+
+</LinearLayout>

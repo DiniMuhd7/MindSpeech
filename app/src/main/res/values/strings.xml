@@ -1,0 +1,328 @@
+<!--
+  ~ Copyright 2016 Deenysoft Inc.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">MindSpeech</string>
+
+    <string name="welcome">Welcome to MindSpeech</string>
+    <string name="welcome_summary">MindSpeech is an advanced form of telepathic communicational application that enables you to communicate from mind to speech. </string>
+
+    <string name="keynote_tag">Tag</string>
+    <string name="keynote_script">Write a keynote speech...</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="settings">Settings</string>
+
+    <string name="right_arrow">Forward</string>
+    <string name="left_arrow">Backward</string>
+    <string name="play_arrow">Play</string>
+    <string name="next_arrow"> Next</string>
+    <string name="signOut">Sign Out</string>
+
+    <string name="apply">APPLY</string>
+    <string name="okey">OKEY</string>
+    <string name="edit">EDIT</string>
+    <string name="update">UPDATE</string>
+    <string name="delete">DELETE</string>
+
+    <string name="signature">MindSpeech 1.0.3 (10)</string>
+    <string name="devName">Deen Adam</string>
+    <string name="devTitle">App Developer</string>
+
+    <string name="google">Sign in with Google</string>
+    <string name="developer">Deen Adam</string>
+    <string name="dev_title">Software Developer</string>
+    <string name="twitter_button">FOLLOW</string>
+    <string name="github_button">GITHUB</string>
+    <string name="credit">Credits</string>
+    <string name="license">License</string>
+    <string name="license_description">Copyright 2016 Deen Adam.\nLicensed under The MIT License</string>
+    <string name="dev_description">Hey, I\'m Deen Adam. I have been involved in a variety of software projects while at school. As an interactive developer, i contributed to a wide range of projects with agencies both big and small.</string>
+    <string name="about_appname">MindSpeech</string>
+    <string name="app_version">Version 1.0.3 (10)</string>
+
+
+    <string name="translateFrom">Translate From</string>
+    <string name="translateTo">Translate To</string>
+    <string name="translateFromLangSummary">Set a language that your chat will be translated from</string>
+    <string name="translateToLangSummary">Set a language that your chat will be translated to</string>
+
+    <string name="prefSoundSummary">Set background sound</string>
+    <string name="prefSoundTitle">Sound</string>
+    <string name="appUpdateSummary">Recommended. Get an instant notification about a new app update</string>
+    <string name="freepik_summary">Freepik offers users, high quality graphic designs: exclusive illustrations and graphic resources with great content that can be used in both personal and commercial projects.</string>
+    <string name="freepik">FREEPIK</string>
+    <string name="freepik_art">Freepik Art</string>
+    <string name="appUpdate">Software Update</string>
+    <string name="permission_contacts">Storage permissions are needed to demonstrate access.</string>
+    <string name="permission_voice">Microphone permission is needed to demonstrate access.</string>
+
+    <string name="font_type">sans-serif-condensed</string>
+    <string name="hint_chat_box">Type to translate message...</string>
+
+    <string name="languageTitle">Language</string>
+    <string name="languageSummary">Set a language to localise the application</string>
+    <string name="sendReport">Helps to fix all types of bugs</string>
+    <string name="sendReportTitle">Crash Report</string>
+
+    <string name="errorMessage">Something Went Wrong!</string>
+    <string name="about">About</string>
+
+    <string name="app_intro">Intro</string>
+    <string name="intro1_title">Welcome to MindSpeech</string>
+    <string name="intro4_title">You\'re All Set</string>
+
+
+    <!-- String Array of languages supported by Google Translate -->
+    <string-array name="languageTranslate">
+        <item name="0">English</item>
+        <item name="1">French</item>
+        <item name="2">Hausa</item>
+        <item name="3">Yoruba</item>
+        <item name="4">Igbo</item>
+        <item name="5">Swahili</item>
+        <item name="6">Arabic</item>
+        <item name="7">Chinese</item>
+        <item name="8">Afrikaans</item>
+        <item name="9">Albanian</item>
+        <item name="10">Amharic</item>
+        <item name="11">Armenian</item>
+        <item name="12">Azerbaijani</item>
+        <item name="13">Basque</item>
+        <item name="14">Belarusian</item>
+        <item name="15">Bengali</item>
+        <item name="16">Bosnian</item>
+        <item name="17">Bulgarian</item>
+        <item name="18">Catalan</item>
+        <item name="19">Cebuano</item>
+        <item name="20">Chichewa</item>
+        <item name="21">Corsican</item>
+        <item name="22">Croatian</item>
+        <item name="23">Czech</item>
+        <item name="24">Danish</item>
+        <item name="25">Dutch</item>
+        <item name="26">Esperanto</item>
+        <item name="27">Estonian</item>
+        <item name="28">Filipino</item>
+        <item name="29">Finnish</item>
+        <item name="30">Frisian</item>
+        <item name="31">Galician</item>
+        <item name="32">Georgian</item>
+        <item name="33">German</item>
+        <item name="34">Greek</item>
+        <item name="35">Gujarati</item>
+        <item name="36">Haitian Creole</item>
+        <item name="37">Hawaiian</item>
+        <item name="38">Hebrew</item>
+        <item name="39">Hindi</item>
+        <item name="40">Hmong</item>
+        <item name="41">Hungarian</item>
+        <item name="42">Icelandic</item>
+        <item name="43">Indonesian</item>
+        <item name="44">Irish</item>
+        <item name="45">Italian</item>
+        <item name="46">Japanese</item>
+        <item name="47">Javanese</item>
+        <item name="48">Kannada</item>
+        <item name="49">Kazakh</item>
+        <item name="50">Khmer</item>
+        <item name="51">Korean</item>
+        <item name="52">Kurdish (Kurmanji)</item>
+        <item name="53">Kyrgyz</item>
+        <item name="54">Lao</item>
+        <item name="55">Latin</item>
+        <item name="56">Latvian</item>
+        <item name="57">Lithuanian</item>
+        <item name="58">Luxembourgish</item>
+        <item name="59">Macedonian</item>
+        <item name="60">Malagasy</item>
+        <item name="61">Malay</item>
+        <item name="62">Malayalam</item>
+        <item name="63">Maltese</item>
+        <item name="64">Maori</item>
+        <item name="65">Marathi</item>
+        <item name="66">Mongolian</item>
+        <item name="67">Myanmar (Burmese)</item>
+        <item name="68">Nepali</item>
+        <item name="69">Norwegian</item>
+        <item name="70">Pashto</item>
+        <item name="71">Persian</item>
+        <item name="72">Polish</item>
+        <item name="73">Portuguese</item>
+        <item name="74">Punjabi</item>
+        <item name="75">Romanian</item>
+        <item name="76">Russian</item>
+        <item name="77">Samoan</item>
+        <item name="78">Scots Gaelic</item>
+        <item name="79">Serbian</item>
+        <item name="80">Sesotho</item>
+        <item name="81">Shona</item>
+        <item name="82">Sindhi</item>
+        <item name="83">Sinhala</item>
+        <item name="84">Slovak</item>
+        <item name="85">Slovenian</item>
+        <item name="86">Somali</item>
+        <item name="87">Spanish</item>
+        <item name="88">Sudanese</item>
+        <item name="89">Swedish</item>
+        <item name="90">Tajik</item>
+        <item name="91">Tamil</item>
+        <item name="92">Telugu</item>
+        <item name="93">Thai</item>
+        <item name="94">Turkish</item>
+        <item name="95">Ukrainian</item>
+        <item name="96">Urdu</item>
+        <item name="97">Uzbek</item>
+        <item name="98">Vietnamese</item>
+        <item name="99">Welsh</item>
+        <item name="100">Xhosa</item>
+        <item name="101">Yiddish</item>
+        <item name="102">Zulu</item>
+    </string-array>
+    <string-array name="languageTranslateValues">
+        <item name="0">en</item>
+        <item name="1">fr</item>
+        <item name="2">ha</item>
+        <item name="3">yo</item>
+        <item name="4">ig</item>
+        <item name="5">sw</item>
+        <item name="6">ar</item>
+        <item name="7">zh-CN</item>
+        <item name="8">af</item>
+        <item name="9">sq</item>
+        <item name="10">am</item>
+        <item name="11">hy</item>
+        <item name="12">az</item>
+        <item name="13">eu</item>
+        <item name="14">be</item>
+        <item name="15">bn</item>
+        <item name="16">bs</item>
+        <item name="17">bg</item>
+        <item name="18">ca</item>
+        <item name="19">ceb</item>
+        <item name="20">ny</item>
+        <item name="21">co</item>
+        <item name="22">hr</item>
+        <item name="23">cs</item>
+        <item name="24">da</item>
+        <item name="25">nl</item>
+        <item name="26">eo</item>
+        <item name="27">et</item>
+        <item name="28">tl</item>
+        <item name="29">fi</item>
+        <item name="30">fy</item>
+        <item name="31">gl</item>
+        <item name="32">ka</item>
+        <item name="33">de</item>
+        <item name="34">el</item>
+        <item name="35">gu</item>
+        <item name="36">ht</item>
+        <item name="37">haw</item>
+        <item name="38">iw</item>
+        <item name="39">hi</item>
+        <item name="40">hmn</item>
+        <item name="41">hu</item>
+        <item name="42">is</item>
+        <item name="43">id</item>
+        <item name="44">ga</item>
+        <item name="45">it</item>
+        <item name="46">ja</item>
+        <item name="47">jw</item>
+        <item name="48">kn</item>
+        <item name="49">kk</item>
+        <item name="50">km</item>
+        <item name="51">ko</item>
+        <item name="52">ku</item>
+        <item name="53">ky</item>
+        <item name="54">lo</item>
+        <item name="55">la</item>
+        <item name="56">lv</item>
+        <item name="57">lt</item>
+        <item name="58">lb</item>
+        <item name="59">mk</item>
+        <item name="60">mg</item>
+        <item name="61">ms</item>
+        <item name="62">ml</item>
+        <item name="63">mt</item>
+        <item name="64">mi</item>
+        <item name="65">mr</item>
+        <item name="66">mn</item>
+        <item name="67">my</item>
+        <item name="68">ne</item>
+        <item name="69">no</item>
+        <item name="70">ps</item>
+        <item name="71">fa</item>
+        <item name="72">pl</item>
+        <item name="73">pt</item>
+        <item name="74">pa</item>
+        <item name="75">ro</item>
+        <item name="76">ru</item>
+        <item name="77">sm</item>
+        <item name="78">gd</item>
+        <item name="79">sr</item>
+        <item name="80">st</item>
+        <item name="81">sn</item>
+        <item name="82">sd</item>
+        <item name="83">si</item>
+        <item name="84">sk</item>
+        <item name="85">sl</item>
+        <item name="86">so</item>
+        <item name="87">es</item>
+        <item name="88">su</item>
+        <item name="89">sv</item>
+        <item name="90">tg</item>
+        <item name="91">ta</item>
+        <item name="92">te</item>
+        <item name="93">th</item>
+        <item name="94">tr</item>
+        <item name="95">uk</item>
+        <item name="96">ur</item>
+        <item name="97">uz</item>
+        <item name="98">vi</item>
+        <item name="99">cy</item>
+        <item name="100">xh</item>
+        <item name="101">yi</item>
+        <item name="102">zu</item>
+    </string-array>
+
+    <!-- String Array of languages available to localise the application-->
+    <string-array name="language">
+        <item>English</item>
+        <item>Hausa</item>
+        <item>Yoruba</item>
+        <item>Igbo</item>
+    </string-array>
+    <string-array name="languageValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+
+    <string name="adUnitIdDashboard">ca-app-pub-6761344652143766/4074847130</string>
+    <string name="adUnitIdKeynotePlayer">ca-app-pub-6761344652143766/5551580332</string>
+    <string name="adUnitIdChatActivity">ca-app-pub-6761344652143766/7028313535</string>
+    <string name="adUnitIdAbout">ca-app-pub-6761344652143766/9981779935</string>
+
+    <string name="adUnitNativeDashboard">ca-app-pub-6761344652143766/3935246338</string>
+    <string name="adUnitNativeKeynotePlayer">ca-app-pub-6761344652143766/8365445939</string>
+    <string name="adUnitNativeChatActivity">ca-app-pub-6761344652143766/2318912336</string>
+    <string name="adUnitNativeSettings">ca-app-pub-6761344652143766/3795645532</string>
+    <string name="adUnitNativeAbout">ca-app-pub-6761344652143766/5272378735</string>
+
+
+</resources>

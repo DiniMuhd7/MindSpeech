@@ -1,0 +1,78 @@
+<!--
+  ~ Copyright 2016 Deenysoft Inc.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <dimen name="spacing_nano">2dp</dimen>
+    <dimen name="spacing_micro">4dp</dimen>
+    <dimen name="spacing_normal">8dp</dimen>
+    <dimen name="spacing_double">16dp</dimen>
+    <dimen name="spacing_huge">72dp</dimen>
+
+    <dimen name="twentydp">50dp</dimen>
+
+    <dimen name="dp_twenty">20dp</dimen>
+    <dimen name="thirty_dp">30dp</dimen>
+
+    <dimen name="size_fab">56dp</dimen>
+    <dimen name="size_avatar_toolbar">40dp</dimen>
+    <dimen name="size_score_mark">24dp</dimen>
+
+    <dimen name="elevation_header">4dp</dimen>
+
+    <dimen name="min_height_touch_target">48dp</dimen>
+    <dimen name="min_height_question">144dp</dimen>
+
+    <dimen name="stroke_width_avatar">4dp</dimen>
+
+    <dimen name="size_edit_text">18sp</dimen>
+    <dimen name="category_item_text_size">14sp</dimen>
+
+    <dimen name="list_item_article_thumbnail">48dp</dimen>
+    <dimen name="list_item_artile_vertical_margin">4dp</dimen>
+    <dimen name="list_item_article_space">8dp</dimen>
+
+    <dimen name="detail_backdrop_height">256dp</dimen>
+    <dimen name="card_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="regular_offset">16dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="card_view_radius">5dp</dimen>
+    <dimen name="margin_small">5dp</dimen>
+
+    <!-- Additional Dimens -->
+    <dimen name="keynote_layout_margin">370dp</dimen>
+    <dimen name="timer_layout_margin">150dp</dimen>
+    <dimen name="seekbar_margin">580dp</dimen>
+
+    <dimen name="bottom_arrow_prev_margin">35dp</dimen>
+    <dimen name="bottom_arrow_next_margin">35dp</dimen>
+    <dimen name="bottom_arrow_play_margin">95dp</dimen>
+
+    <dimen name="clock_margin">250dp</dimen>
+    <dimen name="chronometer_tsize">75dp</dimen>
+    <dimen name="chronometer_margin_left">30dp</dimen>
+    <dimen name="chronometer_margin_top">40dp</dimen>
+    <dimen name="chat_box_edit">280dp</dimen>
+
+    <dimen name="textSize">18dp</dimen>
+
+    <dimen name="padding">16dp</dimen>
+    <dimen name="listview_item_padding">16dp</dimen>
+</resources>

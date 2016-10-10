@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_school"
+        android:title="@string/menu_school"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_course"
+        android:title="@string/menu_course"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_quiz"
+        android:title="@string/menu_quiz"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_test"
+        android:title="@string/menu_test"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_note"
+        android:title="@string/menu_note"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_exam"
+        android:title="@string/menu_exam"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_assignment"
+        android:title="@string/menu_assignment"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_presentation"
+        android:title="@string/menu_presentation"
+        app:showAsAction="never" />
+
+        -->
+
+</menu>

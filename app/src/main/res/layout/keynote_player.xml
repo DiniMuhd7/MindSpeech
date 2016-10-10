@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/low_white"
+    android:fitsSystemWindows="true"
+    tools:context=".dashboard.activity.KeyNotePlayer">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Toolbar -->
+        <include layout="@layout/include_toolbar" />
+
+        <!-- Timer Layout -->
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/timer_layout_margin"
+            android:background="@drawable/bg_card">
+
+            <ImageView
+                android:id="@+id/img_clock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_clock"
+                android:layout_marginLeft="@dimen/clock_margin"
+                android:clickable="true">
+            </ImageView>
+
+
+            <Chronometer
+                android:id="@+id/chronometer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/chronometer_tsize"
+                android:textColor="@color/black_color"
+                android:textAppearance="@style/Topeka.TextAppearance.Subhead"
+                android:layout_marginLeft="@dimen/chronometer_margin_left"
+                android:layout_marginTop="@dimen/chronometer_margin_top">
+            </Chronometer>
+
+        </RelativeLayout>
+
+        <!-- Keynote Layout -->
+        <android.support.v4.widget.NestedScrollView
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_card"
+            android:padding="@dimen/margin_small"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <TextView
+                android:id="@+id/txtScript"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize"
+                android:fontFamily="@string/font_type"
+                android:textAppearance="@android:style/TextAppearance.Small"/>
+
+        </android.support.v4.widget.NestedScrollView>
+
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/low_white">
+
+        <!-- SeekBar Scroller -->
+        <SeekBar android:id="@+id/speech_seek"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="58dp">
+        </SeekBar>
+
+    </LinearLayout>
+
+    <!-- Bottom Toolbar Player -->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/bottom_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/mind_primary_dark"
+        android:layout_gravity="bottom"
+        app:popupTheme="@style/Toolbar">
+
+        <ImageView
+            android:id="@+id/img_previous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="35dp"
+            android:src="@drawable/ic_skip_previous_black"
+            android:clickable="true">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/img_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_play_arrow_black"
+            android:clickable="true">
+        </ImageView>
+
+
+        <ImageView
+            android:id="@+id/img_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_pause_black"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:visibility="gone">
+        </ImageView>
+
+
+        <ImageView
+            android:id="@+id/img_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_skip_next_black"
+            android:layout_gravity="right"
+            android:layout_marginRight="35dp"
+            android:clickable="true">
+        </ImageView>
+
+
+    </android.support.v7.widget.Toolbar>
+
+
+</android.support.design.widget.CoordinatorLayout>

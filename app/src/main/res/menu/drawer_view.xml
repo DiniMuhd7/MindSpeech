@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dash"
+            android:icon="@drawable/ic_dashboard"
+            android:title="@string/dashboard_title" />
+        <item
+            android:id="@+id/nav_stack"
+            android:icon="@drawable/ic_world"
+            android:title="@string/nav_stack" />
+        <item
+            android:id="@+id/nav_elem"
+            android:icon="@drawable/ic_element"
+            android:title="@string/navigation_quotes" />
+        <item
+            android:id="@+id/nav_quiz"
+            android:icon="@drawable/ic_school"
+            android:title="@string/navigation_samples" />
+
+        <item
+            android:id="@+id/nav_feed"
+            android:icon="@drawable/ic_startalk"
+            android:title="@string/navigation_settings" />
+    </group>
+
+    <item android:title="@string/navigation_sub_items">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_action_settings"
+                android:title="@string/navigation_dummy_item_1" />
+            <item
+                android:id="@+id/nav_support"
+                android:icon="@drawable/ic_support"
+                android:title="@string/navigation_dummy_item_2" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/about"
+                android:title="@string/navigation_about"/>
+        </menu>
+    </item>
+
+    -->
+
+</menu>

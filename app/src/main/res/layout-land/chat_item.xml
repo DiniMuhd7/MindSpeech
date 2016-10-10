@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="right"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        style="@style/Widget.CardContent">
+
+        <TextView
+            android:id="@+id/chat_body"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="325dp"
+            android:layout_margin="5dp"
+            style="@style/TextAppearance.AppCompat.Small"
+            tools:text="@string/devTitle" />
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

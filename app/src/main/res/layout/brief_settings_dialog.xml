@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_player"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:theme="@style/Toolbar"
+        app:popupTheme="@style/ToolbarPopUp"
+        style="@style/Topeka.TextAppearance.Title"
+        android:background="@color/mind_primary_dark"
+        android:elevation="@dimen/elevation_header" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingTop="@dimen/card_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/card_margin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Translate From"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
+
+    <Spinner
+        android:id="@+id/translateFromSpinner"
+        android:key="translateFrom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dialog"
+        style="@android:style/Widget.Holo.Light.Spinner"
+        android:entries="@array/languageTranslate"
+        android:entryValues="@array/languageTranslateValues"
+        android:paddingTop="@dimen/card_margin"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Translate To"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:paddingTop="@dimen/card_margin"/>
+
+
+    <Spinner
+        android:id="@+id/translateToSpinner"
+        android:key="translateTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dialog"
+        style="@android:style/Widget.Holo.Light.Spinner"
+        android:entries="@array/languageTranslate"
+        android:entryValues="@array/languageTranslateValues"
+        android:paddingTop="@dimen/card_margin"/>
+
+<!--
+    <PreferenceCategory android:title="PREFERENCE" >
+
+        <ListPreference
+            android:key="translateFrom"
+            android:entries="@array/languageTranslate"
+            android:summary="@string/translateFromLangSummary"
+            android:entryValues="@array/languageTranslateValues"
+            android:defaultValue="en"
+            android:title="@string/translateFrom" />
+
+        <ListPreference
+            android:key="translateTo"
+            android:entries="@array/languageTranslate"
+            android:summary="@string/translateToLangSummary"
+            android:entryValues="@array/languageTranslateValues"
+            android:defaultValue="en"
+            android:title="@string/translateTo" />
+
+    </PreferenceCategory>
+
+    -->
+
+        </LinearLayout>
+
+</LinearLayout>
