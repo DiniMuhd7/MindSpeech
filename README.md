@@ -9,6 +9,3 @@ MindSpeech consistently allows you to work offline in all gadgets, permitting yo
 
 Finally, the development of MindSpeech will be continued partially whenever possible due to school activities and other day-life activities of the developer. Latest updates and improvements will always be made according to the developer time. Thank You
 
-COMMUNITY : Join our community to report bugs, share ideas, get in touch with others.
-Facebook : https://www.facebook.com/deenysoft/?fref=ts
-
